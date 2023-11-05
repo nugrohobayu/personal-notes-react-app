@@ -52,6 +52,12 @@ textarea::placeholder {
   margin: 16px 0;
 }
 
+.note-app__format-date {
+  color: #aaa;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 .note-input {
   margin: 0 auto;
   max-width: 500px;

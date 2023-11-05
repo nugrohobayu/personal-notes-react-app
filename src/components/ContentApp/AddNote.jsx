@@ -53,14 +53,14 @@ class AddNote extends React.Component {
         <input
           className="note-input__title"
           type="text"
-          placeholder="Ini adalah judul..."
+          placeholder="Masukkan judul..."
           value={this.state.title}
           onChange={this.onTitleChangeEventHandler}
         />
         <textarea
           className="note-input__body"
           type="text"
-          placeholder="Tuliskan catatanmu di sini..."
+          placeholder="Tuliskan catatanmu..."
           value={this.state.body}
           onChange={this.onBodyChangeEventHandler}
         />
