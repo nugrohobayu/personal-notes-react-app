@@ -17,7 +17,7 @@ function Header({ search, setQuery, notes, setFilteredNotes }) {
       <div className="note-search">
         <input
           type="search"
-          placeholder="Cari catatan ..."
+          placeholder="Cari catatan..."
           value={search}
           onChange={handleSearch}
         />

@@ -99,7 +99,12 @@ class ContentApp extends React.Component {
           <AddNote inputNote={this.onAddNoteHandler} />
           <h2>Catatan Aktif</h2>
           <NoteList
-            notes={this.state.notes}
+            notes={
+              this.state.filteredNotes.length > 0
+                ? this.state.filteredNotes
+                : this.state.notes
+            }
+            search={this.state.search}
             onDelete={this.onDeleteHandler}
             onArchive={this.onArchiveHandler}
           />
