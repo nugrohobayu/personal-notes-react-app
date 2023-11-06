@@ -12,7 +12,7 @@ function Header({ search, setQuery, notes, setFilteredNotes }) {
   };
 
   return (
-    <div className="note-app__header">
+    <div className="note__header">
       <h1>Notes</h1>
       <div className="note-search">
         <input

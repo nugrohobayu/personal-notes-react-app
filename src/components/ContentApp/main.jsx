@@ -95,7 +95,7 @@ class ContentApp extends React.Component {
             setFilteredNotes={this.setFilteredNotes}
           />
         </div>
-        <div className="note-app__body">
+        <div className="note__body">
           <AddNote inputNote={this.onAddNoteHandler} />
           <h2>Catatan Aktif</h2>
           <NoteList
